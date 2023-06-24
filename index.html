@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <h1><i>Content Management Tool</i></h1>
+    <form id="blogForm">
+        <label for="title"><b>Title:</b></label>
+        <input type="text" id="title" name="title">
+
+        <label for="content"><b>Content:</b></label>
+        <textarea id="content" name="content" rows="4"></textarea>
+
+        <label for="image"><b>Image:</b></label>
+        <input type="text" id="image" name="image">
+
+        <label for="video"><b>Video URL:</b></label>
+        <input type="text" id="video" name="video">
+
+        <!-- <input type="submit" value="Create Blog"> -->
+        <div class="button">
+            <input type="submit" value="Create Blog">
+        </div>
+    </form>
+
+    <div id="detailsContainer"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
