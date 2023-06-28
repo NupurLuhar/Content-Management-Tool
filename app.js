@@ -13,11 +13,11 @@
            // Display the filled details on the webpage
            var detailsContainer = document.querySelector('#detailsContainer');
            detailsContainer.innerHTML = `
-        <h1>Blog Details</h1>
-        <h2>Title: ${title}</h2>
-        <p>Content: ${content}</p>
+        <h2>Blog Details</h2>
+        <h3>Title: ${title}</h3>
+        <h3>Content: ${content}</h3>
         <img src="${image}" alt="Blog Image">
-        <p>Video URL: ${video}</p>
+        <h3>Video URL: ${video}</h3>
       `;
        });
    });
